@@ -158,10 +158,9 @@ class _EmailState extends State<Email> {
                           _validateInputs1();
 
                           if (validateEmail1(email) == "varified") {
-                            String username =
-                                'ram9956651@gmail.com'; //Your Email;
+                            String username = 'sender email'; //Your Email;
                             String password =
-                                'ps9956651'; //Your Email's password;
+                                'sender password'; //Your Email's password;
 
                             final smtpServer = gmail(username, password);
                             // Creating the Gmail server
